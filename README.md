@@ -10,18 +10,18 @@ purposes. See deployment for notes on how to deploy the project on a live system
 
 They were tested on IntelliJ IDEA with mac laptop.
 
+### Prerequisites
+
+Ensure that the machine is installed with JDK/JRE, and the classpath is applied in the environment variable.
+
+It is very preferable to use an IDE, like Eclipse or IntelliJ IDEA.
+
 ## Specifications
 INPUT: <0..999999>(.<0..99>)?
 
 OUTPUT: 
   1) Fixed instruction "Enter the number: "
   2) Result in string of words
-
-### Prerequisites
-
-Ensure that the machine is installed with JDK/JRE, and the classpath is applied in the environment variable.
-
-It is very preferable to use an IDE, like Eclipse or IntelliJ IDEA.
 
 ## Installing
 
