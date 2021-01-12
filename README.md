@@ -11,9 +11,10 @@ purposes. See deployment for notes on how to deploy the project on a live system
 They were tested on IntelliJ IDEA with mac laptop.
 
 ## Specifications
-The input must be in integer with the pattern like <0..999999>.?<0..99>
-
-Output will be given as string.
+INPUT: <0..999999>(.<0..99>)?
+OUTPUT: 
+  1) Fixed instruction "Enter the number: "
+  2) Result in string of words
 
 ### Prerequisites
 
