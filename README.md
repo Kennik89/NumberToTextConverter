@@ -12,6 +12,7 @@ They were tested on IntelliJ IDEA with mac laptop.
 
 ## Specifications
 INPUT: <0..999999>(.<0..99>)?
+
 OUTPUT: 
   1) Fixed instruction "Enter the number: "
   2) Result in string of words
