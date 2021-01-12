@@ -10,6 +10,11 @@ purposes. See deployment for notes on how to deploy the project on a live system
 
 They were tested on IntelliJ IDEA with mac laptop.
 
+## Specifications
+The input must be in integer with the pattern like <0..999999>.?<0..99>
+
+Output will be given as string.
+
 ### Prerequisites
 
 Ensure that the machine is installed with JDK/JRE, and the classpath is applied in the environment variable.
@@ -25,6 +30,9 @@ Open the terminal and go to the root of the project. Copy and run the command.
 ```
 java -cp NumberToTextConverter.jar src/com/main/NumberConverter.java
 ```
+
+Pay attention that there will be a fixed instruction string in the output "Enter the number: " before enabling to type the input, when the JAR is executed directly, ie. on the terminal.
+
 ### Import in IDE
 1) Download/clone the JAR file in your machine
 2) In IntelliJ, go to File -> Project Structure
